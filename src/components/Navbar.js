@@ -33,7 +33,7 @@ function Navbar () {
         <Nav>
             <Logo src={logo}/>
             <LogoTitle>ReactFacts</LogoTitle>
-            <SmallTitle>React Course - Project 1</SmallTitle>
+            <SmallTitle>Simple React Static Page</SmallTitle>
         </Nav>
     )
 }

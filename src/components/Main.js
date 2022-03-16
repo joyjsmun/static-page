@@ -1,13 +1,17 @@
 import styled from "styled-components";
+import bgImg from "../images/react-icon-large.png";
 
 const MainPage = styled.main`
     padding: 57px 27px;
+    background-image: url(${bgImg});
+    background-repeat: no-repeat;
+    background-position: right;
+    
 `
 const MainTitle = styled.h1`
 font-weight: 700;
 font-size: 39px;
 letter-spacing: -0.05em;
-
 color: #FFFFFF;
 `
 
@@ -24,6 +28,8 @@ const Item = styled.li`
     font-size: 1.5em;
 }
 `
+
+
 
 
 
