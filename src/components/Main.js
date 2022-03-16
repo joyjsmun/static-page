@@ -18,7 +18,13 @@ const Item = styled.li`
     padding-block: 10px;
     font-weight: 400;
     font-size: 16px;
+
+&::marker {
+    color: #61DAFB;
+    font-size: 1.5em;
+}
 `
+
 
 
 
